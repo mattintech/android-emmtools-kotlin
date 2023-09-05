@@ -5,6 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:theme="@style/Theme.EMMTools"
     tools:context=".MainActivity">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -23,8 +24,7 @@
                 android:id="@+id/iv_menu"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/ic_launcher_foreground"
-                />
+                android:src="@drawable/ic_icon_menu" />
         </LinearLayout>
 
         <fragment
@@ -44,7 +44,6 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         app:menu="@menu/navigation_menu"
-        android:layout_gravity="start"
-        />
+        android:layout_gravity="start" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -2,6 +2,7 @@
     <string name="app_name">EMMTools</string>
 
     <!-- Menu Labels -->
-    <string name="menu_label_main">Home</string>
+    <string name="menu_label_main">App Issues</string>
+    <string name="menu_label_about">About</string>
 
 </resources>

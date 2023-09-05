@@ -1,6 +1,7 @@
-![status: active](https://img.shields.io/badge/status-active-green.svg)
-![status: release](https://img.shields.io/badge/release-No-red.svg)
-![status: branch](https://img.shields.io/badge/branch-master-lightgrey.svg)
+![status: Active](https://img.shields.io/badge/status-active-green.svg)
+![status: Branch](https://img.shields.io/badge/branch-poorBehavior-lightgrey.svg)
+![status: Development Release](https://img.shields.io/badge/Dev_Release-0.1.0-orange.svg)
+![status: Google Play Release](https://img.shields.io/badge/Google_Play_Release-No-red.svg)
 
 # EMMTools for Android
 
