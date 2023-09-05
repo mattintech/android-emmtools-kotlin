@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">EMMTools</string>
-    <string name="menu_label">Home</string>
+
+    <!-- Menu Labels -->
+    <string name="menu_label_main">Home</string>
+
 </resources>
