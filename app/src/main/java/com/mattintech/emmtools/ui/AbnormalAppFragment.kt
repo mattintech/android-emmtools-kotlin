@@ -26,7 +26,7 @@ class AbnormalAppFragment : Fragment(), View.OnClickListener {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_main, container, false)
+        return inflater.inflate(R.layout.fragment_abnormal_app, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -37,15 +37,21 @@ class AbnormalAppFragment : Fragment(), View.OnClickListener {
     private fun uiInit(view: View) {
         val btnStartAnr: Button = view.findViewById(R.id.btn_anr_start)
         btnStartAnr.setOnClickListener(this)
+
+        val btnStartCrash: Button = view.findViewById(R.id.btn_crash_start)
+        btnStartCrash.setOnClickListener(this)
     }
 
     override fun onClick(view: View) {
         when (view.id) {
-            R.id.btn_anr_start -> run {
+            R.id.btn_anr_start -> {
                 Log.d(TAG, "onClick: startAnr")
                 abnormal.startAnr()
             }
-
+            R.id.btn_crash_start -> {
+                Log.d(TAG, "onClick: startCrash")
+                abnormal.appCrash()
+            }
         }
     }
 

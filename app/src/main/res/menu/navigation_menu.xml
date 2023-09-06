@@ -7,15 +7,15 @@
     <item
         android:id="@id/menu_abnormal"
         android:icon="@drawable/ic_icon_abnormal_app"
-        android:title="@string/menu_label_about" />
+        android:title="@string/menu_label_abnormal" />
     <item
         android:id="@id/menu_download"
         android:icon="@drawable/ic_icon_download"
         android:title="@string/menu_label_download" />
     <item
-        android:id="@id/menu_battery_drain"
+        android:id="@id/menu_battery_drainer"
         android:icon="@drawable/ic_icon_battery_drain"
-        android:title="@string/menu_label_download" />
+        android:title="@string/menu_label_battery" />
     <item
         android:id="@id/menu_settings"
         android:icon="@drawable/ic_icon_settings"
