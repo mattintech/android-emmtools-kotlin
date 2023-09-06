@@ -3,6 +3,10 @@
 
     <!-- Menu Labels -->
     <string name="menu_label_main">App Issues</string>
+    <string name="menu_label_abnormal">Abnormal App</string>
     <string name="menu_label_about">About</string>
+    <string name="menu_label_settings">Settings</string>
+    <string name="menu_label_battery">Battery Drainer</string>
+    <string name="menu_label_download">Download</string>
 
 </resources>

@@ -9,6 +9,25 @@
         android:name="com.mattintech.emmtools.ui.MainFragment"
         android:label="@string/menu_label_main"
         tools:layout="@layout/fragment_main"/>
+    <fragment
+        android:id="@+id/menu_settings"
+        android:name="com.mattintech.emmtools.ui.SettingsFragment"
+        android:label="@string/menu_label_settings"
+        tools:layout="@layout/fragment_settings"/>
+    <fragment android:id="@+id/menu_abnormal"
+        android:name="com.mattintech.emmtools.ui.AbnormalAppFragment"
+        android:label="@string/menu_label_abnormal"
+        tools:layout="@layout/fragment_abnormal_app" />
+    <fragment
+        android:id="@+id/menu_download"
+        android:name="com.mattintech.emmtools.ui.DownloadFragment"
+        android:label="@string/menu_label_download"
+        tools:layout="@layout/fragment_download"/>
+    <fragment
+        android:id="@+id/menu_battery_drainer"
+        android:name="com.mattintech.emmtools.ui.BatteryDrainFragment"
+        android:label="@string/menu_label_battery"
+        tools:layout="@layout/fragment_battery_drain"/>
     <fragment android:id="@+id/menu_about"
         android:name="com.mattintech.emmtools.ui.AboutFragment"
         android:label="@string/menu_label_about"
