@@ -9,4 +9,9 @@
     <string name="menu_label_battery">Battery Drainer</string>
     <string name="menu_label_download">Download</string>
 
+    <!-- Abnormal App-->
+    <string name="application_not_responding">Application Not Responding</string>
+    <string name="start">Start</string>
+    <string name="application_crash">Application Crash</string>
+
 </resources>
